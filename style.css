@@ -1,0 +1,148 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 40px;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+  
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links li a:hover {
+    color: #ffcc00;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-image: url("images/srkr1-college.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+  }
+  
+  .hero-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 1;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .center-logo {
+    height: 100px;
+    margin-bottom: 20px;
+  }
+  
+  /* Hero Text */
+  .hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  
+  /* History Section */
+  .history {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .history a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .history h2 {
+    color: #00539C;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    transition: color 0.3s ease;
+  }
+  
+  .history h2:hover {
+    color: #003366;
+  }
+  
+  .history-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: left;
+  }
+  
+  .history-text {
+    flex: 1 1 60%;
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .history-image {
+    flex: 1 1 30%;
+    text-align: center;
+  }
+  
+  .history-image img {
+    max-width: 100%;
+    border-radius: 8px;
+    height: auto;
+  }
+  
+  .director-caption {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #444;
+  }

@@ -1,0 +1,125 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navigation */
+  .navbar {
+    background-color: #003366;
+    padding: 1rem;
+    text-align: right;
+  }
+  
+  .nav-links {
+    list-style: none;
+  }
+  
+  .nav-links li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .nav-links a:hover,
+  .nav-links .active {
+    color: #ffcc00;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-image: url("images/srkr-college.jpg");
+    background-size: cover;
+    background-position: center;
+    color: rgb(251, 241, 242);
+    padding: 100px 20px;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  /* College Logo Section */
+  .college-logo {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .college-logo .srk-logo {
+    max-width: 180px;
+    height: auto;
+    display: inline-block;
+    transition: transform 0.3s;
+  }
+  
+  .college-logo .srk-logo:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Branches Section */
+  .branches {
+    background-color: #f2f2f2;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .branches h2 {
+    font-size: 2.5rem;
+    color: #003366;
+    margin-bottom: 40px;
+  }
+  
+  .branch-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .branch-card {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
+  .branch-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .branch-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .branch-card h3 {
+    margin: 15px 0 10px;
+    color: #00539C;
+  }
+  
+  .branch-card p {
+    padding: 0 15px;
+    font-size: 0.95rem;
+    color: #444;
+  }
